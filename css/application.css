@@ -75,6 +75,8 @@ body {
   display: block;
   padding-top: 15em;
   padding-bottom: 20em; }
+  .about-content h2 {
+    color: #EEEEEF; }
   .about-content table {
     margin-top: 5%;
     margin-left: 25%;
@@ -114,7 +116,7 @@ body {
   margin: 0;
   padding: 5em;
   background: rgba(25, 25, 25, 0.5); }
-  .contact h1 {
+  .contact h2 {
     text-align: center;
     font-size: 1.5em;
     color: #EEEEEF; }
