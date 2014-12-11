@@ -18,7 +18,7 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="js/vendor/bonsai-0.4.1.min.js"></script>
+
     </head>
     <body>
 
@@ -29,18 +29,16 @@
           <div class="nav">
             <p><a href="#about-content">About</a></p>
             <p><a href="#features-content">Features</a></p>
-            <p><a href="#contact-content">Contact</a></p>
+            <p><a href="#contact">Contact</a></p>
           </div>
 
         </header>
-
-
-
         <section class="about-content" id="about-content">
 
           <p>A fantasy sports analytics tool in the works. </p>
           <p>Fnalyzer is a web-based utility focusing on stat projections and correlations for fantasy team creators</p>
           <p>Currently only analyzing daily NBA game statline correlations and projections</p>
+          <p>Sample table:</p>
           <div class="ex"></div>
           <div class="background"></div>
 
@@ -54,22 +52,22 @@
               <td>Avg ESPN: </td>
               <td>Avg Yahoo: </td>
             </tr>
+            <tr>
             <td>Player1</td>
             <td>Team1</td>
             <td>Opp1</td>
-            <td id="FD" onload="randomInteger(id);"></td>
-            <td>Avg DraftKings: </td>
-            <td>Avg ESPN: </td>
-            <td>Avg Yahoo: </td>
-            <tr></tr>
-            <tr></tr>
+            <td>0 </td>
+            <td>0 </td>
+            <td>0 </td>
+            <td>0 </td>
+            </tr>
+
           </table>
 
 
         </section>
-
         <section class="features-content" id="features-content">
-
+          <h1>Features</h1>
           <ol>
             <li><h2>Planned Web-based tools for daily league fantasy owners and enthusiasts:</h2></li>
             <li>Wide range of player, team, and  information in simple visuals for daily games</li>
@@ -78,10 +76,16 @@
           </ol>
 
         </section>
-
         <section class="contact" id="contact">
+          <h1>Contact</h1>
           <ol>
-            <li><h2>Please send any suggestions or concerns to by email to branfy@gmail.com</li><h2>
+            <li><h2>Please fill out the contact form below with any suggestions or concerns</li><h2>
+              <form>
+                <p>Name/Organization: <input type="text" name="Name"></p>
+                <p>Email: <input type="text" name="Email"></p>
+                <p>Comments/Conerns: <input type="text" width="500px" height="450px"></p>
+                <p><input type="button" onClick="Submit();" value="Submit"></p>
+              </form>
 
           </ol>
 
@@ -97,13 +101,10 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/vendor/bonsai-0.4.1.min.js"></script>
         <script>
-        function randomInteger(id){
-
-          document.getElementById(id) = Math.random()*10;;
 
 
-        }
         </script>
     </body>
 </html>

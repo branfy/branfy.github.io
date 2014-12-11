@@ -1,14 +1,31 @@
 .contact{
   width: 100%;
-  height: 15em;
-  background-color: $gray;
+  height: 100%;
+  margin: 0;
 
+
+  padding: 5em;
+
+  background:rgba(25,25,25,0.5);
+
+
+  h1{
+    text-align: center;
+    font-size: 1.5em;
+    color: $white;
+  }
   ol{
-    margin-left: 30em;
+    display: inline-block;
+    margin-left: 25%;
     list-style-type: none;
+    background-color: $white;
   }
   li{
     padding: 2em;
-    color: $darkestblue;
+    color: $darkblue;
+
+  }
+  p{
+    text-align: center;
   }
 }
