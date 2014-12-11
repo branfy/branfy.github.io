@@ -90,10 +90,14 @@ body {
     font-style: strong;
     font-size: 32px;
     text-align: center; }
+  .about-content canvas {
+    padding: 5em; }
+    .about-content canvas .knob {
+      position: relative; }
 
 .features-content {
   margin: 0;
-  height: 100%;
+  height: 50em;
   background: rgba(255, 255, 255, 0.5);
   padding: 4em; }
   .features-content h1 {
@@ -116,7 +120,7 @@ body {
     font-style: strong; }
 
 .contact {
-  height: 150%;
+  height: 40em;
   padding: 5em;
   background: rgba(25, 25, 25, 0.5);
   text-align: center; }
