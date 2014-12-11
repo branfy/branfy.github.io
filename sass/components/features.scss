@@ -1,25 +1,29 @@
 .features-content{
   margin: 0;
-  width: 100%;
+
   height: 100%;
   background:rgba(255,255,255,0.5);
-  padding: 5em;
+  padding: 4em;
 
 
   h1{
     font-size: 2em;
-    color: $darkblue;
-    margin-left: 50%;
+    color: $darkestblue;
+    margin-left: 10%;
+    background: rgba(255,255,255,0.7);
     padding: .5em;
+    padding-left: .3em;
+    @include border-left-radius(3px);
+
   }
   ol{
     background: white;
-
+    padding: 2em;
     list-style-type:none;
   }
   li{
     color: $darkblue;
-    padding: 1.5em;
+    padding: 1em;
     font-size: 16px;
     font-style: strong;
   }

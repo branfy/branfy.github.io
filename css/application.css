@@ -76,10 +76,11 @@ body {
   padding-top: 15em;
   padding-bottom: 20em; }
   .about-content h2 {
-    color: #EEEEEF; }
+    color: #EEEEEF;
+    text-align: center; }
   .about-content table {
     margin-top: 5%;
-    margin-left: 25%;
+    margin-left: 24%;
     border: 2px solid white;
     border-radius: 3px; }
     .about-content table td {
@@ -92,44 +93,53 @@ body {
 
 .features-content {
   margin: 0;
-  width: 100%;
   height: 100%;
   background: rgba(255, 255, 255, 0.5);
-  padding: 5em; }
+  padding: 4em; }
   .features-content h1 {
     font-size: 2em;
-    color: #1C5ECE;
-    margin-left: 50%;
-    padding: .5em; }
+    color: #0950C9;
+    margin-left: 10%;
+    background: rgba(255, 255, 255, 0.7);
+    padding: .5em;
+    padding-left: .3em;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px; }
   .features-content ol {
     background: white;
+    padding: 2em;
     list-style-type: none; }
   .features-content li {
     color: #1C5ECE;
-    padding: 1.5em;
+    padding: 1em;
     font-size: 16px;
     font-style: strong; }
 
 .contact {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+  height: 150%;
   padding: 5em;
-  background: rgba(25, 25, 25, 0.5); }
-  .contact h2 {
+  background: rgba(25, 25, 25, 0.5);
+  text-align: center; }
+  .contact h1 {
     text-align: center;
+    margin-right: 10%;
     font-size: 1.5em;
     color: #EEEEEF; }
-  .contact ol {
+  .contact form {
     display: inline-block;
-    margin-left: 25%;
-    list-style-type: none;
-    background-color: #EEEEEF; }
-  .contact li {
-    padding: 2em;
-    color: #1C5ECE; }
-  .contact p {
-    text-align: center; }
+    margin: 0 auto;
+    margin-right: 15%;
+    width: 3em;
+    padding: .5em; }
+    .contact form input {
+      background-color: #7092CC;
+      opacity: .4;
+      border: none;
+      color: #EEEEEF; }
+    .contact form p {
+      color: #EEEEEF;
+      padding: .5em;
+      font-style: bold; }
 
 .footer {
   padding: 1em;
