@@ -38,10 +38,32 @@
 
         <section class="about-content" id="about-content">
 
-          <p>A planned Day-to-Day fantasy sports analytics project focusing on stat projections and correlations</p>
-          <p>Currently analyzing daily NBA game statline correlations and projections</p>
+          <p>A fantasy sports analytics tool in the works. </p>
+          <p>Fnalyzer is a web-based utility focusing on stat projections and correlations for fantasy team creators</p>
+          <p>Currently only analyzing daily NBA game statline correlations and projections</p>
           <div class="ex"></div>
           <div class="background"></div>
+
+          <table id="table1">
+            <tr>
+              <td>Player Name:</td>
+              <td>Team:</td>
+              <td>Opp:</td>
+              <td>Avg FanDuel: </td>
+              <td>Avg DraftKings: </td>
+              <td>Avg ESPN: </td>
+              <td>Avg Yahoo: </td>
+            </tr>
+            <td>Player1</td>
+            <td>Team1</td>
+            <td>Opp1</td>
+            <td id="FD" onload="randomInteger(id);"></td>
+            <td>Avg DraftKings: </td>
+            <td>Avg ESPN: </td>
+            <td>Avg Yahoo: </td>
+            <tr></tr>
+            <tr></tr>
+          </table>
 
 
         </section>
@@ -49,17 +71,17 @@
         <section class="features-content" id="features-content">
 
           <ol>
-            <li><h2>Providing web-based tools for daily league fantasy owners and investors:</h2></li>
+            <li><h2>Planned Web-based tools for daily league fantasy owners and enthusiasts:</h2></li>
             <li>Wide range of player, team, and  information in simple visuals for daily games</li>
             <li>Player-tracking APIs</li>
-            <li>Fnalyzer Lineup</li>
+            <li>Custom Fnalyzer Lineup</li>
           </ol>
 
         </section>
 
         <section class="contact" id="contact">
           <ol>
-            <li><h2>All inquiries about this project should be emailed to branfy@gmail.com</li><h2>
+            <li><h2>Please send any suggestions or concerns to by email to branfy@gmail.com</li><h2>
 
           </ol>
 
@@ -75,6 +97,14 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script>
+        function randomInteger(id){
+
+          document.getElementById(id) = Math.random()*10;;
+
+
+        }
+        </script>
     </body>
 </html>
 </html>

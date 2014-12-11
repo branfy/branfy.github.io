@@ -2,8 +2,8 @@ body {
   background-image: url("../img/background.jpg");
   background-image: url("../img/background.jpg");
   background: url("../img/background.jpg");
-  background-position: 50% 5% fixed;
-  background-size: 100% 95%;
+  background-position: 50% -2% fixed;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
@@ -74,6 +74,13 @@ body {
   display: block;
   padding-top: 10em;
   padding-bottom: 40em; }
+  .about-content table {
+    margin-top: 5%;
+    margin-left: 25%;
+    border: 2px solid white;
+    border-radius: 3px; }
+    .about-content table td {
+      padding: 2em; }
   .about-content p {
     font-family: Lato;
     font-style: strong;
@@ -97,12 +104,13 @@ body {
 
 .contact {
   width: 100%;
-  height: 30em;
-  background-color: #DFE3E8;
-  list-style-type: none; }
+  height: 15em;
+  background-color: #DFE3E8; }
   .contact ol {
-    float: middle; }
+    margin-left: 30em;
+    list-style-type: none; }
   .contact li {
+    padding: 2em;
     color: #0950C9; }
 
 .footer {
