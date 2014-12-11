@@ -1,0 +1,13 @@
+.contact{
+  width: 100%;
+  height: 30em;
+
+  background-color: $gray;
+  list-style-type: none;
+  ol{
+    float: middle;
+  }
+  li{
+    color: $darkestblue;
+  }
+}

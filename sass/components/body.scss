@@ -1,0 +1,12 @@
+body{
+
+  @include background-image(url("../img/background.jpg"));
+    background: url('../img/background.jpg');
+    background-position: 50% 5% fixed;
+    background-size: 100% 95%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+
+  }
