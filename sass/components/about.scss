@@ -4,7 +4,7 @@
   height: 100%;
   width: 100%;
   background-color:  $darkblue;
-  background:rgba(0,0,0,0.7);
+  background:rgba(0,0,0,0.5);
 
   color: $gray;
   align-content: center;
@@ -23,11 +23,16 @@
           margin-left: 24%;
           border: 2px solid white;
           border-radius: 3px;
-          tr{
+          .top{
+              font-style: strong;
 
           }
           td{
             padding: 2em;
+          }
+          td:hover{
+            background-color: $white;
+            color: $darkblue;
           }
         }
         p{
@@ -37,12 +42,12 @@
           text-align: center;
         }
   canvas{
-    .knob{
 
+    .knob{
       position: relative;
     }
-    padding: 5em;
-
+    margin-left: 43%;
+    padding: 3em;
 
   }
 

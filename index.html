@@ -38,12 +38,12 @@
 
           <p>Fnalyzer is a web-based utility focusing on stat projections and correlations for fantasy team creators</p>
           <p>Currently only analyzing daily NBA game statline correlations and projections</p>
-          <p>Sample table:</p>
+          <p>Sample table (arbitrary numbers):</p>
           <div class="ex"></div>
           <div class="background"></div>
 
           <table id="table1">
-            <tr>
+            <tr class="top">
               <td>Player Name:</td>
               <td>Team:</td>
               <td>Opp:</td>
@@ -53,13 +53,13 @@
               <td>Avg Yahoo: </td>
             </tr>
             <tr>
-            <td>Player1</td>
-            <td>Team1</td>
-            <td>Opp1</td>
-            <td>0 </td>
-            <td>0 </td>
-            <td>0 </td>
-            <td>0 </td>
+            <td>Lebron James</td>
+            <td>CLE</td>
+            <td>GS</td>
+            <td>30.0</td>
+            <td>25.0</td>
+            <td>27.0</td>
+            <td>29.0</td>
             </tr>
           </table>
           <canvas class="knob">
@@ -85,8 +85,9 @@
               <form>
                 <p>Name/Organization: <input type="text" name="Name"></p>
                 <p>Email: <input type="text" name="Email"></p>
-                <p>Comments/Conerns: <input type="text"></p>
-                <p><input type="button" onClick="Submit();" value="Submit"></p>
+                <p>Comments/Conerns: </p>
+                <textarea rows="4" cols="50"></textarea>
+                <p><input type="submit" onClick="Submit();" value="Submit"></p>
               </form>
         </section>
 
@@ -104,12 +105,15 @@
                     //jquery knob
                     $(function($) {
                         $(".knob").knob({
-                         fgColor: "#00ABC6"
-                           ,bgColor: "#f3f3f3"
-                           ,inputColor: "#00ABC6"
+
+                         fgColor: "white"
+                           ,bgColor: "#295DD6"
+                           ,inputColor: "white"
                            ,thickness: 0.3
+
                           });
-                      });
+                        });
+
         </script>
 
 
